@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
 </head>
+
 <body class="bg-gray-100 p-10 ">
     <header class="flex justify-between">
         <img class="h-10 w-10" src="pic/menu.png" alt="menu">
         <img class="h-10 w-10" src="pic/search.png" alt="search">
     </header>
     <main>
-        <h2 class="font-bold p-5">blogger of the week</h2>
-        <div class="flex  gap-2 p-5">
-            <img class="rounded-full h-15 w-20" src="pic/imsto1.jpg" alt="story">
-            <img class="rounded-full h-15 w-20" src="pic/imsto2.jpg" alt="story">
-            <img class="rounded-full h-15 w-20" src="pic/imso3.jpg" alt="story">
-            <img class="rounded-full h-15 w-20" src="pic/imo4.jpg" alt="story">
-            <img class="rounded-full h-15 w-20" src="pic/imo5.jpg" alt="story">
+        <div class="px-4">
+            <h2 class="font-bold p-5">blogger of the week</h2>
+            <div class="flex  gap-2 p-5 overflow-x-auto">
+                <div class="text-center">
+                    <img class="h-14 w-14 rounded-full mx-auto" src="pic/imsto1.jpg" alt="story">
+                    <span class="text-xs mt-1">josefina <br>hudson</span>
+                </div>
+                <div class="text-center">
+                    <img class="h-14 w-14 rounded-full mx-auto" src="pic/imsto2.jpg" alt="story">
+                    <span class="text-xs mt-1">Joe <br>Rath</span>
+                </div>
+                <div class="text-center">
+                    <img class="h-14 w-14 rounded-full mx-auto" src="pic/imso3.jpg" alt="story">
+                    <span class="text-xs mt-1">Francis <br>Sanford</span>
+                </div>
+                <div class="text-center">
+                    <img class="h-15 w-20 rounded-full mx-auto" src="pic/imo4.jpg" alt="story">
+                    <span class="text-xs mt-1">Bradley <br> Stiedemann</span>
+                </div>
+                <div class="text-center">
+                    <img class="h-14 w-14 rounded-full mx-auto" src="pic/imo5.jpg" alt="story">
+                    <span class="text-xs mt-1">Kati <br>Consic</span>
+                </div>
+
+            </div>
         </div>
+
     </main>
 </body>
+
 </html>
