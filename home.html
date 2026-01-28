@@ -8,10 +8,10 @@
     <title>Document</title>
 </head>
 
-<body class="bg-gray-100 p-10 ">
-    <header class="flex justify-between">
-        <img class="h-10 w-10" src="pic/menu.png" alt="menu">
-        <img class="h-10 w-10" src="pic/search.png" alt="search">
+<body class="bg-gray-100 overflow-x-hidden">
+    <header class="flex justify-between p-5">
+        <img class="h-5 w-5" src="pic/menu.png" alt="menu">
+        <img class="h-5 w-5" src="pic/search.png" alt="search">
     </header>
     <main>
         <div class="px-4">
@@ -48,59 +48,62 @@
         </div>
 
         </div>
-        <div>
-            <h2 class="text-xl flex gap-1 ml-2">What Do You Want To Read ?</h2>
-            <div class="flex overflow-auto gap-1 scrollbar-hide">
+        <div class="px-4">
+            <h2 class="text-xl mb-3">What Do You Want To Read ?</h2>
+            <div class="flex overflow-auto gap-2 scrollbar-hide">
 
-                <button class="px-4 py-2 rounded-[10px] w-[60px] h-[40px] bg-green-600 text-white ml-2">ALL</button>
-                <button class="px-4 py-2 rounded-[10px] w-[70px] h-[40px] border ml-2">Forest</button>
-                <button class="px-4 py-2 rounded-[10px] w-[70px] h-[40px] border ml-2">Beach</button>
-                <button class="px-4 py-2 rounded-[10px] w-[70px] h-[40px]  border ml-2">River</button>
-                <button class="px-4 py-2 rounded-[10px] w-[90px] h-[40px] border ml-2">Mantanis</button>
-                <button class="px-4 py-2 rounded-[10px] w-[70px] h-[40px] border">Roac</button>
+                <button
+                    class="shrink-0 px-4 py-2 rounded-[10px] w-[60px] h-[40px] bg-green-600 text-white ">ALL</button>
+                <button class="shrink-0 px-4 py-2 rounded-[10px] w-[70px] h-[40px] border ">Forest</button>
+                <button class="shrink-0 px-4 py-2 rounded-[10px] w-[70px] h-[40px] border ">Beach</button>
+                <button class="shrink-0 px-4 py-2 rounded-[10px] w-[70px] h-[40px]  border ">River</button>
+                <button class="shrink-0 px-4 py-2 rounded-[10px] w-[90px] h-[40px] border ">Mantanis</button>
+                <button class="shrink-0 px-4 py-2 rounded-[10px] w-[70px] h-[40px] border">Roac</button>
             </div>
         </div>
         <div class="p-4">
-            <div class="bg-white rounded-2xl shadow overflow-hidden ">
-                <img src="pic/imbggg.jpg" class="h-44 w-full object-cover">
-                <div class="p-4">
-                    <h3 class="font-semibold">Yellow River</h3>
-                    <p class="text-sm text-gray-500">by Ian Jacobson</p>
+            <a href="Detail.html">
+                <div class="bg-white rounded-2xl shadow overflow-hidden ">
+                    <img src="pic/imbggg.jpg" class="h-44 w-full object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold">Yellow River</h3>
+                        <p class="text-sm text-gray-500">by Ian Jacobson</p>
 
-                    <div class="flex items-center gap-4 text-xs text-gray-500 mt-3">
-                        <span><img class="h-3 w-3" src="pic/location.png" alt=""> China</span>
-                        <span><img class="h-3 w-3" src="pic/time.png" alt=""> 15 min</span>
-                        <span><img class="h-3 w-3" src="pic/visible.png" alt=""> 12k</span>
+                        <div class="flex items-center gap-4 text-xs text-gray-500 mt-3">
+                            <span><img class="h-3 w-3" src="pic/location.png" alt=""> China</span>
+                            <span><img class="h-3 w-3" src="pic/time.png" alt=""> 15 min</span>
+                            <span><img class="h-3 w-3" src="pic/visible.png" alt=""> 12k</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
-        <div class=" flex gap-3 justify-center">
+        <div class=" grid grid-cols-2 gap-4 px-4">
             <div class="bg-white rounded-2xl shadow overflow-hidden ">
-                <img src="pic/mountain.jpg" class="h-44 w-full object-cover">
+                <a href="Detail.html"><img src="pic/mountain.jpg" class="h-44 w-full object-cover"></a>
 
             </div>
             <div class="bg-white rounded-2xl shadow overflow-hidden ">
-                <img src="pic/sunset.jpg" class="h-44 w-full object-cover">
-
-            </div>
-        </div>
-
-
-        </div>
-        <div class="p-4 flex gap-3 justify-center">
-            <div class="bg-white rounded-2xl shadow overflow-hidden ">
-                <img src="pic/mon.png" class="h-44 w-full object-cover">
-
-            </div>
-            <div class="bg-white rounded-2xl shadow overflow-hidden ">
-                <img src="pic/beach.jpg" class="h-44 w-full object-cover">
+                <a href="Detail.html"><img src="pic/sunset.jpg" class="h-44 w-full object-cover"></a>
 
             </div>
         </div>
 
 
-        
+        </div>
+        <div class=" grid grid-cols-2 gap-4 p-4">
+            <div class="bg-white rounded-2xl shadow overflow-hidden ">
+                <a href="Detail.html"><img src="pic/mon.png" class="h-44 w-full object-cover"></a>
+
+            </div>
+            <div class="bg-white rounded-2xl shadow overflow-hidden ">
+                <a href="Detail.html"><img src="pic/beach.jpg" class="h-44 w-full object-cover"></a>
+
+            </div>
+        </div>
+
+
+
 
 
     </main>
