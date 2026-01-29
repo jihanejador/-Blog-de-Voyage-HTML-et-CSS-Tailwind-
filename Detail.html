@@ -5,37 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <title>Detail</title>
 </head>
 
 <body>
-    <div class="min-h-screen bg-[url('pic/imbggg.jpg')] bg-cover bg-center">
-        <div>
-            <h1 class="font-serif text-white ">Journey in Yellow River</h1>
+    <div class="h-70 bg-[url('pic/imbggg.jpg')] bg-cover bg-center">
+        <div class="font-serif text-white py-20 px-6 ">
+            <h1>Journey in Yellow River</h1>
             <p class="text-white flex gap-3"> by Ian Jacobs <img class="w-5 h-5" src="pic/arrows.png"> China</p>
         </div>
         <div class="flex gap-50 text-white p-20">
-            <div>
-                <img class="h-5 w-5" src="pic/time.png">
-                <p>15min to read</p>
+            <div class="flex">
+                <img class="h-5 w-5 text-xl"  src="pic/time.png">
+                <p >15min to read</p>
             </div>
-            <div>
-                <img class="h-5 w-5" src="pic/visible.png">
+            <div class="flex">
+                <img class="h-5 w-5 " src="pic/visible.png">
                 <p>12K</p>
             </div>
         </div>
 
     </div>
-    <div>
+    
+    <div><hr>
         <div class="flex gap-11">
             <h2 class="font-bold p-5 ">lets Begin to read</h2>
             <h2 class="font-bold p-5">End</h2>
         </div>
-        <div class="rounded-2xl bg-slate-50 justify-center px-2 shadow-2xl">
+        <div class="rounded-2xl bg-slate-50  justify-center px-2 shadow-2xl">
+            
+        </div><hr>
+        <div class="rounded-2xl bg-slate-50  justify-center px-2 shadow-2xl">
             <p>The Yellow River, or "Huang He," is not just a river; it's a living testament to China’s rich history and
                 cultural heritage. Spanning over 5,400 kilometers.</p>
-        </div>
-        <div>
             <p>My journey along this iconic river offered a perfect blend of natural wonders, cultural experiences, and
                 awe-inspiring moments.<br>
                 From the serene alpine meadows at its source in Qinghai Province to the thunderous Hukou Waterfall, and
@@ -46,6 +49,24 @@
 
 
     </div>
+    <footer class="fixed bottom-0 left-0 border-t right-0 flex bg-white  justify-around py-2">
+            <div class="flex flex-col items-center text-green-600 ">
+                <i class="ri-home-4-fill text-2xl"></i>
+                <span class="text-xs">Home</span>
+            </div>
+            <div  class="flex flex-col items-center text-black ">
+            <i class="ri-map-pin-line text-2xl"></i>
+               <span class="text-xs">Location</span>
+            </div>
+             <div class="flex flex-col items-center text-black ">
+              <i class="ri-heart-3-line text-2xl"></i>
+               <span class="text-xs">Wishlist</span>
+            </div>
+           <div class="flex flex-col items-center text-black ">
+        <i class="ri-account-circle-line text-2xl"></i>
+          <span class="text-xs">Profile</span>
+           </div>
+    </footer>
 </body>
 
 </html>
