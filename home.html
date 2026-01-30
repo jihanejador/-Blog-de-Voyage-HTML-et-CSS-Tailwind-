@@ -15,33 +15,33 @@
         <img class="h-5 w-5" src="pic/search.png" alt="search">
     </header>
     <main>
+        <h1 class="sr-only">travel blog home page</h1>
         <div class="px-4">
             <h2 class="font-bold p-5">blogger of the week</h2>
 
-            <div class="flex gap-6 p-5 overflow-x-auto scrollbar-hide">
+            <div class="flex justify-between gap-6 p-5 overflow-x-auto scrollbar-hide ">
 
                 <div class="flex flex-col items-center shrink-0">
-                    <img class="h-16 w-16 rounded-full object-cover" src="pic/imsto1.jpg">
+                    <img class="h-16 w-16 rounded-full object-cover" src="pic/imsto1.jpg" alt="story">
                     <p class="text-xs mt-2 text-center">josefina <br> hudson</p>
                 </div>
-
                 <div class="flex flex-col items-center shrink-0">
-                    <img class="h-16 w-16 rounded-full object-cover" src="pic/imsto2.jpg">
+                    <img class="h-16 w-16 rounded-full object-cover" src="pic/imsto2.jpg" alt="story">
                     <p class="text-xs mt-2 text-center">Joe <br> Rath</p>
                 </div>
 
                 <div class="flex flex-col items-center shrink-0">
-                    <img class="h-16 w-16 rounded-full object-cover" src="pic/imso3.jpg">
+                    <img class="h-16 w-16 rounded-full object-cover" src="pic/imso3.jpg" alt="story">
                     <p class="text-xs mt-2 text-center">Francis <br> Sanford</p>
                 </div>
 
                 <div class="flex flex-col items-center shrink-0">
-                    <img class="h-16 w-16 rounded-full object-cover" src="pic/imo4.jpg">
+                    <img class="h-16 w-16 rounded-full object-cover" src="pic/imo4.jpg" alt="story">
                     <p class="text-xs mt-2 text-center">Bradley <br> Stiedemann</p>
                 </div>
 
                 <div class="flex flex-col items-center shrink-0">
-                    <img class="h-16 w-16 rounded-full object-cover" src="pic/imo5.jpg">
+                    <img class="h-16 w-16 rounded-full object-cover" src="pic/imo5.jpg" alt="story">
                     <p class="text-xs mt-2 text-center">Kati <br> Consic</p>
                 </div>
 
@@ -53,27 +53,27 @@
             <h2 class="text-xl mb-3">What Do You Want To Read ?</h2>
             <div class="flex overflow-auto gap-2 scrollbar-hide">
 
-                <button
+                <button aria-label="Show All articles"
                     class="shrink-0 px-4 py-2 rounded-[10px] w-[60px] h-[40px] bg-green-600 text-white ">ALL</button>
-                <button class="shrink-0 px-4 py-2 rounded-[10px] w-[70px] h-[40px] border ">Forest</button>
-                <button class="shrink-0 px-4 py-2 rounded-[10px] w-[70px] h-[40px] border ">Beach</button>
-                <button class="shrink-0 px-4 py-2 rounded-[10px] w-[70px] h-[40px]  border ">River</button>
-                <button class="shrink-0 px-4 py-2 rounded-[10px] w-[90px] h-[40px] border ">Mantanis</button>
-                <button class="shrink-0 px-4 py-2 rounded-[10px] w-[70px] h-[40px] border">Roac</button>
+                <button aria-label=" filters by Forest" class="shrink-0 px-4 py-2 rounded-[10px] w-[70px] h-[40px] border ">Forest</button>
+                <button aria-label="filters by Beach" class="shrink-0 px-4 py-2 rounded-[10px] w-[70px] h-[40px] border ">Beach</button>
+                <button aria-label="filters by River" class="shrink-0 px-4 py-2 rounded-[10px] w-[70px] h-[40px]  border ">River</button>
+                <button aria-label="filters by Mantanis" class="shrink-0 px-4 py-2 rounded-[10px] w-[90px] h-[40px] border ">Mantanis</button>
+                <button aria-label="filters by Roac" class="shrink-0 px-4 py-2 rounded-[10px] w-[70px] h-[40px] border">Roac</button>
             </div>
         </div>
         <div class="p-4">
             <a href="Detail.html">
                 <div class="bg-white rounded-2xl shadow overflow-hidden ">
-                    <img src="pic/imbggg.jpg" class="h-44 w-full object-cover">
+                    <img src="pic/imbggg.jpg" alt="post" class="h-44 w-full object-cover">
                     <div class="p-4">
                         <h3 class="font-semibold">Yellow River</h3>
-                        <p class="text-sm text-gray-500">by Ian Jacobson</p>
+                        <p class="text-sm text-gray-700">by Ian Jacobson</p>
 
                         <div class="flex items-center gap-4 text-xs text-gray-500 mt-3">
-                            <span><img class="h-3 w-3" src="pic/location.png" alt=""> China</span>
-                            <span><img class="h-3 w-3" src="pic/time.png" alt=""> 15 min</span>
-                            <span><img class="h-3 w-3" src="pic/visible.png" alt=""> 12k</span>
+                            <span><img class="h-3 w-3" src="pic/location.png" alt="icon"> China</span>
+                            <span><img class="h-3 w-3" src="pic/time.png" alt="icon"> 15 min</span>
+                            <span><img class="h-3 w-3" src="pic/visible.png" alt="icon"> 12k</span>
                         </div>
                     </div>
                 </div>
@@ -81,11 +81,11 @@
         </div>
         <div class=" grid grid-cols-2 gap-4 px-4">
             <div class="bg-white rounded-2xl shadow overflow-hidden ">
-                <a href="Detail.html"><img src="pic/mountain.jpg" class="h-44 w-full object-cover"></a>
+                <a href="Detail.html"><img src="pic/mountain.jpg"alt="post" class="h-44 w-full object-cover"></a>
 
             </div>
             <div class="bg-white rounded-2xl shadow overflow-hidden ">
-                <a href="Detail.html"><img src="pic/sunset.jpg" class="h-44 w-full object-cover"></a>
+                <a href="Detail.html"><img src="pic/sunset.jpg" alt="post" class="h-44 w-full object-cover"></a>
 
             </div>
         </div>
@@ -94,11 +94,11 @@
         </div>
         <div class=" grid grid-cols-2 gap-4 p-4">
             <div class="bg-white rounded-2xl shadow overflow-hidden ">
-                <a href="Detail.html"><img src="pic/mon.png" class="h-44 w-full object-cover"></a>
+                <a href="Detail.html"><img src="pic/mon.png" alt="post" class="h-44 w-full object-cover"></a>
 
             </div>
             <div class="bg-white rounded-2xl shadow overflow-hidden ">
-                <a href="Detail.html"><img src="pic/beach.jpg" class="h-44 w-full object-cover"></a>
+                <a href="Detail.html"><img src="pic/beach.jpg" alt="post" class="h-44 w-full object-cover"></a>
 
             </div>
         </div>
@@ -110,20 +110,20 @@
     </main>
      <footer class="fixed bottom-0 left-0 border-t right-0 flex bg-white rounded-[100px] justify-around py-2">
         <div class="flex flex-col items-center text-green-600 ">
-            <i class="ri-home-4-fill text-2xl"></i>
+            <i class="ri-home-4-fill text-2xl" aria-label="true"></i>
             <span class="text-xs">Home</span>
         </div>
         <div class="flex flex-col items-center text-black ">
-            <i class="ri-map-pin-line text-2xl"></i>
+            <i class="ri-map-pin-line text-2xl" aria-label="true"></i>
             <span class="text-xs">Location</span>
         </div>
         <div class="flex flex-col items-center text-black ">
-            <i class="ri-heart-3-line text-2xl"></i>
+            <i class="ri-heart-3-line text-2xl" aria-label="true"></i>
             <span class="text-xs">Wishlist</span>
         </div>
-        <a href="Profile.html">
+        <a href="Profile.html" aria-label="Profile">
             <div class="flex flex-col items-center text-black ">
-                <i class="ri-account-circle-line text-2xl"></i>
+                <i class="ri-account-circle-line text-2xl" aria-label="true"></i>
                 <span class="text-xs">Profile</span>
             </div>
         </a>
