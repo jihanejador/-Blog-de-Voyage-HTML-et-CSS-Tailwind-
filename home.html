@@ -38,13 +38,15 @@
 
                             <div>
                                 <label class="text-sm text-gray-600">Titre</label>
-                                <input type="text" class="w-full mt-1 p-3 rounded-xl bg-gray-100 focus:outline-none"
+                                <input id="titre" type="text"
+                                    class="w-full mt-1 p-3 rounded-xl bg-gray-100 focus:outline-none"
                                     placeholder="Enter le titre">
                             </div>
 
                             <div>
                                 <label class="text-sm text-gray-600">Destination</label>
-                                <input type="text" class="w-full mt-1 p-3 rounded-xl bg-gray-100 focus:outline-none"
+                                <input id="destination" type="text"
+                                    class="w-full mt-1 p-3 rounded-xl bg-gray-100 focus:outline-none"
                                     placeholder="Enter la destination">
                             </div>
 
@@ -75,18 +77,21 @@
 
                             <div>
                                 <label class="text-sm text-gray-600">Image</label>
-                                <input type="text" class="w-full mt-1 p-3 rounded-xl bg-gray-100 focus:outline-none"
+                                <input id="image" type="text"
+                                    class="w-full mt-1 p-3 rounded-xl bg-gray-100 focus:outline-none"
                                     placeholder="Enter url de image">
                             </div>
 
                         </div>
 
                         <div class="flex gap-3 mt-6">
-                            <label for="a" class="flex-1 bg-green-600 text-white py-3 rounded-xl text-center shadow">
+                            <label id="savebtn" for="a"
+                                class="flex-1 bg-green-600 text-white py-3 rounded-xl text-center shadow">
                                 Enregistrer
                             </label>
 
-                            <label for="a" class="flex-1 bg-gray-200 text-gray-700 py-3 rounded-xl text-center">
+                            <label id="Annulerbtn" for="a"
+                                class="flex-1 bg-gray-200 text-gray-700 py-3 rounded-xl text-center">
                                 Annuler
                             </label>
                         </div>
@@ -182,7 +187,7 @@
                     </div>
                 </a>
             </div>
-            <div class=" grid grid-cols-2 gap-4 px-4">
+            <div id="cardimage" class=" grid grid-cols-2 gap-4 px-4">
                 <div class="bg-white rounded-2xl shadow overflow-hidden ">
                     <a href="Detail.html"><img src="pic/mountain.jpg" alt="post" class="h-44 w-full object-cover"></a>
 
@@ -208,11 +213,12 @@
         </div>
         </div>
 
+       
 
 
 
 
-
+        <script src="script.js"></script>
     </main>
     <footer class="fixed bottom-0 left-0 border-t right-0 flex bg-white rounded-[100px] justify-around py-2">
         <div class="flex flex-col items-center text-green-600 ">
